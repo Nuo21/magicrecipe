@@ -7,7 +7,9 @@ Have you ever had no clue as to what you wanted to make to eat? Whether it be br
 ## User Story
 
 AS A person learning to cook
+
 I WANT to find recipies based on certain ingredients
+
 SO THAT I can make a delicious dish properly
 
 ## Acceptance Criteria

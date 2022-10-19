@@ -2,6 +2,8 @@ var searchBtn = document.getElementById("search-btn");
 var mealList = document.getElementById("meal");
 var mealDetailsContent = document.querySelector(".meal-details-content");
 var recipeCloseBtn = document.getElementById("recipe-close-btn");
+const mealquote = document.getElementById("quote");
+const author = document.getElementById("author");
 
 //Variable for last search and function to store into local storage
 var userSearch = document.getElementById("search-input");
@@ -85,3 +87,25 @@ function mealRecipeModal(meal) {
   mealDetailsContent.innerHTML = html;
   mealDetailsContent.parentElement.classList.add("showRecipe");
 }
+
+fetch("https://type.fit/api/quotes")
+  .then((response) => response.json())
+  .then((quotes) => {
+    const random = Math.floor(Math.random() * quotes.length);
+    mealquote.textContent = quotes[random].text;
+    author.textContent = `-${quotes[random].author}`;
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
+
+fetch("https://type.fit/api/quotes")
+  .then((response) => response.json())
+  .then((quotes) => {
+    var random = Math.floor(Math.random() * quotes.length);
+    mealquote.textContent = quotes[random].text;
+    author.textContent = `-${quotes[random].author}`;
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });

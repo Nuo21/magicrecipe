@@ -1,4 +1,4 @@
-# <Magic Recipe>
+# <Magic Recipe - Meals from Ingredients>
 
 ## Description
 

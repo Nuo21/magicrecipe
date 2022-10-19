@@ -102,7 +102,7 @@ fetch("https://type.fit/api/quotes")
 fetch("https://type.fit/api/quotes")
   .then((response) => response.json())
   .then((quotes) => {
-    const random = Math.floor(Math.random() * quotes.length);
+    var random = Math.floor(Math.random() * quotes.length);
     mealquote.textContent = quotes[random].text;
     author.textContent = `-${quotes[random].author}`;
   })

@@ -17,18 +17,23 @@ SO THAT I can make a delicious dish properly
 GIVEN I am using a website to find recipes
 
 WHEN I load the page
+
 THEN I am greeted with a randomized inspirational quote
 
 WHEN I type an ingredient into the search box
+
 THEN I am presented with various results of recipescontaining the ingredient
 
 WHEN I select a certain recipe
+
 THEN I want instructions to be displayed in a box showing info about the recipe and a link to a YouTube video
 
 WHEN I click the link to the video
+
 THEN I want to a seperate tab to be opened with the video
 
 WHEN I search for an ingredient in the search box
+
 THEN what I searched for most recently is stored into local storage as my last search
 
 ## Screenshot

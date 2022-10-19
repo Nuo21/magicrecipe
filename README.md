@@ -38,4 +38,10 @@ THEN what I searched for most recently is stored into local storage as my last s
 
 ## Screenshot
 
+![mmss1](https://user-images.githubusercontent.com/111789697/196786061-2dc36701-f1a6-4a79-824c-a38a1d229426.png)
+
+![mmss2](https://user-images.githubusercontent.com/111789697/196786107-31088b45-0882-4d08-8297-4add35085f64.png)
+
 ## Live Deploy Link
+
+https://nuo21.github.io/magicrecipe/

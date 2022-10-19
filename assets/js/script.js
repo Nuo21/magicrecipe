@@ -88,6 +88,7 @@ function mealRecipeModal(meal) {
   mealDetailsContent.parentElement.classList.add("showRecipe");
 }
 
+//Quotes
 fetch("https://type.fit/api/quotes")
   .then((response) => response.json())
   .then((quotes) => {
